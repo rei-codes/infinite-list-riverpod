@@ -33,11 +33,11 @@ final listIndexProvider = Provider<int>((_) {
 
 final catAtIndexProvider = Provider.family<AsyncValue<Cat>, int>(
   (ref, index) {
-    final indexInPage = index % limit;
     final page = index ~/ limit;
+    final indexOnPage = index % limit;
 
     final res = ref.watch(paginatedCatsProvider(page));
-    return res.whenData((e) => e.cats[indexInPage]);
+    return res.whenData((e) => e.cats[indexOnPage]);
   },
   dependencies: [paginatedCatsProvider],
 );
