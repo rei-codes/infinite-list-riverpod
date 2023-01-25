@@ -1,16 +1,8 @@
-# infinite_list_riverpod
+![Cover](https://miro.medium.com/max/1400/1*fO7vGebtmSgyLZzYY4xoLA.webp)
 
-A new Flutter project.
+# Seamless Infinite List with Riverpod in Flutter
+## Take your list to infinity and beyond! Prevent unnecessary calculations and stops on every page request!
 
-## Getting Started
+More information about the project: [Medium](https://medium.com/itnext/seamless-infinite-list-with-riverpod-in-flutter-15369f3c9cd2)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Animation](https://miro.medium.com/max/1280/1*ZyjeMFn_8_RCBbRUrC9ILg.gif)
